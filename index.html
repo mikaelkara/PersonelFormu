@@ -19,6 +19,7 @@
         <!-- Personel formu -->
         <form id="personel-form" class="needs-validation" novalidate>
             <div class="row g-3">
+                <!-- Temel Bilgiler -->
                 <div class="col-md-6">
                     <label for="firstName" class="form-label">Ad</label>
                     <input type="text" class="form-control" id="firstName" required>
@@ -32,13 +33,52 @@
                     <input type="date" class="form-control" id="birthDate" required>
                 </div>
                 <div class="col-md-6">
+                    <label for="tcNo" class="form-label">TC Kimlik No</label>
+                    <input type="text" class="form-control" id="tcNo" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="sicilNo" class="form-label">Sicil Numarası</label>
+                    <input type="text" class="form-control" id="sicilNo" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="rank" class="form-label">Rütbe</label>
+                    <select id="rank" class="form-select" required>
+                        <option value="" selected disabled>Seçiniz</option>
+                        <option>Polis Memuru</option>
+                        <option>Komiser Yardımcısı</option>
+                        <option>Komiser</option>
+                        <option>Başkomiser</option>
+                        <option>Emniyet Amiri</option>
+                        <option>Emniyet Müdürü</option>
+                        <option>Başpolis Memuru</option>
+                        <option>Kıdemli Başpolis</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
                     <label for="unit" class="form-label">Görev Birimi</label>
-                    <input type="text" class="form-control" id="unit" required>
+                    <select id="unit" class="form-select" required>
+                        <option value="" selected disabled>Seçiniz</option>
+                        <option>Trafik</option>
+                        <option>Asayiş</option>
+                        <option>Narkotik</option>
+                        <option>Terörle Mücadele</option>
+                        <option>Özel Harekat</option>
+                        <option>Siber Suçlar</option>
+                        <option>İstihbarat</option>
+                        <option>Çevik Kuvvet</option>
+                        <option>Kaçakçılık</option>
+                        <option>İdari</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="period" class="form-label">Dönem</label>
+                    <input type="number" min="45" max="54" class="form-control" id="period" required>
                 </div>
                 <div class="col-12">
                     <label for="courses" class="form-label">Kurs Bilgileri</label>
                     <textarea class="form-control" id="courses" rows="3" placeholder="Aldığınız kursları yazınız"></textarea>
                 </div>
+                <!-- İletişim ve Ek Bilgiler -->
                 <div class="col-md-6">
                     <label for="phone" class="form-label">Telefon</label>
                     <input type="tel" class="form-control" id="phone" required>
@@ -46,6 +86,22 @@
                 <div class="col-md-6">
                     <label for="email" class="form-label">E-posta</label>
                     <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="iban" class="form-label">IBAN</label>
+                    <input type="text" class="form-control" id="iban" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="address" class="form-label">Adres</label>
+                    <textarea id="address" class="form-control" rows="2"></textarea>
+                </div>
+                <div class="col-md-6">
+                    <label for="emergencyContact" class="form-label">Acil Durum Kişisi</label>
+                    <input type="text" class="form-control" id="emergencyContact">
+                </div>
+                <div class="col-md-6">
+                    <label for="emergencyPhone" class="form-label">Acil Durum Telefonu</label>
+                    <input type="tel" class="form-control" id="emergencyPhone">
                 </div>
             </div>
             <div class="mt-4 text-center">

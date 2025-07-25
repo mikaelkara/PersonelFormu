@@ -1,0 +1,13 @@
+/* Basit ve sade tasarım için özelleştirilmiş stiller */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #0d6efd; /* Bootstrap ana rengi */
+}
+
+/* Küçük cihazlarda formun kenarlara yapışmaması için boşluk */
+.container {
+    max-width: 700px;
+}

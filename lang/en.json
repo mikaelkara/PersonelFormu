@@ -1,0 +1,50 @@
+{
+  "title": "Personnel Information Form",
+  "successMessage": "Your information has been received, thank you.",
+  "language": "Language",
+  "languageOptions": {
+    "tr": "Turkish",
+    "en": "English"
+  },
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "birthDate": "Date of Birth",
+  "tcNo": "National ID Number",
+  "sicilNo": "Registry Number",
+  "rank": "Rank",
+  "rankOptions": {
+    "select": "Select",
+    "policeOfficer": "Police Officer",
+    "commissarAssistant": "Assistant Commissioner",
+    "commissar": "Commissioner",
+    "chiefCommissar": "Chief Commissioner",
+    "superintendent": "Superintendent",
+    "chiefOfPolice": "Chief of Police",
+    "chiefOfficer": "Chief Officer",
+    "seniorChiefOfficer": "Senior Chief Officer"
+  },
+  "unit": "Unit",
+  "unitOptions": {
+    "select": "Select",
+    "traffic": "Traffic",
+    "publicOrder": "Public Order",
+    "narcotics": "Narcotics",
+    "antiTerror": "Counter-Terrorism",
+    "specialOperations": "Special Operations",
+    "cyber": "Cyber Crime",
+    "intelligence": "Intelligence",
+    "riot": "Riot Control",
+    "smuggling": "Smuggling",
+    "administrative": "Administrative"
+  },
+  "period": "Term",
+  "courses": "Course Information",
+  "coursesPlaceholder": "List the courses you have taken",
+  "phone": "Phone",
+  "email": "Email",
+  "iban": "IBAN",
+  "address": "Address",
+  "emergencyContact": "Emergency Contact",
+  "emergencyPhone": "Emergency Phone",
+  "submit": "Submit"
+}

@@ -11,9 +11,16 @@
 </head>
 <body class="bg-light">
     <div class="container py-5">
-        <h1 class="mb-4 text-center">Personel Bilgi Formu</h1>
+        <div class="mb-3 text-end">
+            <label for="language-select" class="me-2" data-i18n="language">Dil</label>
+            <select id="language-select" class="form-select w-auto d-inline">
+                <option value="tr" data-i18n="languageOptions.tr">Türkçe</option>
+                <option value="en" data-i18n="languageOptions.en">English</option>
+            </select>
+        </div>
+        <h1 class="mb-4 text-center" data-i18n="title">Personel Bilgi Formu</h1>
         <!-- Başarılı gönderim mesajı -->
-        <div id="success-message" class="alert alert-success d-none" role="alert">
+        <div id="success-message" class="alert alert-success d-none" role="alert" data-i18n="successMessage">
             Bilgileriniz alınmıştır, teşekkür ederiz.
         </div>
         <!-- Personel formu -->
@@ -21,91 +28,91 @@
             <div class="row g-3">
                 <!-- Temel Bilgiler -->
                 <div class="col-md-6">
-                    <label for="firstName" class="form-label">Ad</label>
+                    <label for="firstName" class="form-label" data-i18n="firstName">Ad</label>
                     <input type="text" class="form-control" id="firstName" required>
                 </div>
                 <div class="col-md-6">
-                    <label for="lastName" class="form-label">Soyad</label>
+                    <label for="lastName" class="form-label" data-i18n="lastName">Soyad</label>
                     <input type="text" class="form-control" id="lastName" required>
                 </div>
                 <div class="col-md-6">
-                    <label for="birthDate" class="form-label">Doğum Tarihi</label>
+                    <label for="birthDate" class="form-label" data-i18n="birthDate">Doğum Tarihi</label>
                     <input type="date" class="form-control" id="birthDate" required>
                 </div>
                 <div class="col-md-6">
-                    <label for="tcNo" class="form-label">TC Kimlik No</label>
+                    <label for="tcNo" class="form-label" data-i18n="tcNo">TC Kimlik No</label>
                     <input type="text" class="form-control" id="tcNo" required>
                 </div>
                 <div class="col-md-6">
-                    <label for="sicilNo" class="form-label">Sicil Numarası</label>
+                    <label for="sicilNo" class="form-label" data-i18n="sicilNo">Sicil Numarası</label>
                     <input type="text" class="form-control" id="sicilNo" required>
                 </div>
                 <div class="col-md-6">
-                    <label for="rank" class="form-label">Rütbe</label>
+                    <label for="rank" class="form-label" data-i18n="rank">Rütbe</label>
                     <select id="rank" class="form-select" required>
-                        <option value="" selected disabled>Seçiniz</option>
-                        <option>Polis Memuru</option>
-                        <option>Komiser Yardımcısı</option>
-                        <option>Komiser</option>
-                        <option>Başkomiser</option>
-                        <option>Emniyet Amiri</option>
-                        <option>Emniyet Müdürü</option>
-                        <option>Başpolis Memuru</option>
-                        <option>Kıdemli Başpolis</option>
+                        <option value="" selected disabled data-i18n="rankOptions.select">Seçiniz</option>
+                        <option data-i18n="rankOptions.policeOfficer">Polis Memuru</option>
+                        <option data-i18n="rankOptions.commissarAssistant">Komiser Yardımcısı</option>
+                        <option data-i18n="rankOptions.commissar">Komiser</option>
+                        <option data-i18n="rankOptions.chiefCommissar">Başkomiser</option>
+                        <option data-i18n="rankOptions.superintendent">Emniyet Amiri</option>
+                        <option data-i18n="rankOptions.chiefOfPolice">Emniyet Müdürü</option>
+                        <option data-i18n="rankOptions.chiefOfficer">Başpolis Memuru</option>
+                        <option data-i18n="rankOptions.seniorChiefOfficer">Kıdemli Başpolis</option>
                     </select>
                 </div>
                 <div class="col-md-6">
-                    <label for="unit" class="form-label">Görev Birimi</label>
+                    <label for="unit" class="form-label" data-i18n="unit">Görev Birimi</label>
                     <select id="unit" class="form-select" required>
-                        <option value="" selected disabled>Seçiniz</option>
-                        <option>Trafik</option>
-                        <option>Asayiş</option>
-                        <option>Narkotik</option>
-                        <option>Terörle Mücadele</option>
-                        <option>Özel Harekat</option>
-                        <option>Siber Suçlar</option>
-                        <option>İstihbarat</option>
-                        <option>Çevik Kuvvet</option>
-                        <option>Kaçakçılık</option>
-                        <option>İdari</option>
+                        <option value="" selected disabled data-i18n="unitOptions.select">Seçiniz</option>
+                        <option data-i18n="unitOptions.traffic">Trafik</option>
+                        <option data-i18n="unitOptions.publicOrder">Asayiş</option>
+                        <option data-i18n="unitOptions.narcotics">Narkotik</option>
+                        <option data-i18n="unitOptions.antiTerror">Terörle Mücadele</option>
+                        <option data-i18n="unitOptions.specialOperations">Özel Harekat</option>
+                        <option data-i18n="unitOptions.cyber">Siber Suçlar</option>
+                        <option data-i18n="unitOptions.intelligence">İstihbarat</option>
+                        <option data-i18n="unitOptions.riot">Çevik Kuvvet</option>
+                        <option data-i18n="unitOptions.smuggling">Kaçakçılık</option>
+                        <option data-i18n="unitOptions.administrative">İdari</option>
                     </select>
                 </div>
                 <div class="col-md-6">
-                    <label for="period" class="form-label">Dönem</label>
+                    <label for="period" class="form-label" data-i18n="period">Dönem</label>
                     <input type="number" min="45" max="54" class="form-control" id="period" required>
                 </div>
                 <div class="col-12">
-                    <label for="courses" class="form-label">Kurs Bilgileri</label>
-                    <textarea class="form-control" id="courses" rows="3" placeholder="Aldığınız kursları yazınız"></textarea>
+                    <label for="courses" class="form-label" data-i18n="courses">Kurs Bilgileri</label>
+                    <textarea class="form-control" id="courses" rows="3" placeholder="Aldığınız kursları yazınız" data-i18n-placeholder="coursesPlaceholder"></textarea>
                 </div>
                 <!-- İletişim ve Ek Bilgiler -->
                 <div class="col-md-6">
-                    <label for="phone" class="form-label">Telefon</label>
+                    <label for="phone" class="form-label" data-i18n="phone">Telefon</label>
                     <input type="tel" class="form-control" id="phone" required>
                 </div>
                 <div class="col-md-6">
-                    <label for="email" class="form-label">E-posta</label>
+                    <label for="email" class="form-label" data-i18n="email">E-posta</label>
                     <input type="email" class="form-control" id="email" required>
                 </div>
                 <div class="col-md-6">
-                    <label for="iban" class="form-label">IBAN</label>
+                    <label for="iban" class="form-label" data-i18n="iban">IBAN</label>
                     <input type="text" class="form-control" id="iban" required>
                 </div>
                 <div class="col-md-6">
-                    <label for="address" class="form-label">Adres</label>
+                    <label for="address" class="form-label" data-i18n="address">Adres</label>
                     <textarea id="address" class="form-control" rows="2"></textarea>
                 </div>
                 <div class="col-md-6">
-                    <label for="emergencyContact" class="form-label">Acil Durum Kişisi</label>
+                    <label for="emergencyContact" class="form-label" data-i18n="emergencyContact">Acil Durum Kişisi</label>
                     <input type="text" class="form-control" id="emergencyContact">
                 </div>
                 <div class="col-md-6">
-                    <label for="emergencyPhone" class="form-label">Acil Durum Telefonu</label>
+                    <label for="emergencyPhone" class="form-label" data-i18n="emergencyPhone">Acil Durum Telefonu</label>
                     <input type="tel" class="form-control" id="emergencyPhone">
                 </div>
             </div>
             <div class="mt-4 text-center">
-                <button class="btn btn-primary" type="submit">Gönder</button>
+                <button class="btn btn-primary" type="submit" data-i18n="submit">Gönder</button>
             </div>
         </form>
     </div>

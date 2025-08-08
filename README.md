@@ -7,6 +7,10 @@ Bu proje, polis personeli için bilgi toplama amacıyla hazırlanmış basit bir
 2. `index.html` dosyasını bir tarayıcıda açın.
 3. Formu doldurup **Gönder** butonuna bastığınızda tüm bilgiler konsola yazdırılır ve ekranda "Bilgileriniz alınmıştır, teşekkür ederiz." mesajı görünür.
 
+### Dil Değiştirme
+
+Sayfanın üst kısmındaki menüden Türkçe ve İngilizce arasında geçiş yapabilirsiniz. Seçtiğiniz dil tarayıcıda saklanır ve sonraki ziyarette otomatik olarak yüklenir.
+
 Formda kimlik, rütbe, iletişim ve acil durum gibi çeşitli alanlar yer almaktadır. Gereken alanları doldurmanız yeterlidir.
 
 ## GitHub Pages ile Yayınlama

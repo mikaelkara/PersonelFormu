@@ -1,0 +1,50 @@
+{
+  "title": "Personel Bilgi Formu",
+  "successMessage": "Bilgileriniz alınmıştır, teşekkür ederiz.",
+  "language": "Dil",
+  "languageOptions": {
+    "tr": "Türkçe",
+    "en": "English"
+  },
+  "firstName": "Ad",
+  "lastName": "Soyad",
+  "birthDate": "Doğum Tarihi",
+  "tcNo": "TC Kimlik No",
+  "sicilNo": "Sicil Numarası",
+  "rank": "Rütbe",
+  "rankOptions": {
+    "select": "Seçiniz",
+    "policeOfficer": "Polis Memuru",
+    "commissarAssistant": "Komiser Yardımcısı",
+    "commissar": "Komiser",
+    "chiefCommissar": "Başkomiser",
+    "superintendent": "Emniyet Amiri",
+    "chiefOfPolice": "Emniyet Müdürü",
+    "chiefOfficer": "Başpolis Memuru",
+    "seniorChiefOfficer": "Kıdemli Başpolis"
+  },
+  "unit": "Görev Birimi",
+  "unitOptions": {
+    "select": "Seçiniz",
+    "traffic": "Trafik",
+    "publicOrder": "Asayiş",
+    "narcotics": "Narkotik",
+    "antiTerror": "Terörle Mücadele",
+    "specialOperations": "Özel Harekat",
+    "cyber": "Siber Suçlar",
+    "intelligence": "İstihbarat",
+    "riot": "Çevik Kuvvet",
+    "smuggling": "Kaçakçılık",
+    "administrative": "İdari"
+  },
+  "period": "Dönem",
+  "courses": "Kurs Bilgileri",
+  "coursesPlaceholder": "Aldığınız kursları yazınız",
+  "phone": "Telefon",
+  "email": "E-posta",
+  "iban": "IBAN",
+  "address": "Adres",
+  "emergencyContact": "Acil Durum Kişisi",
+  "emergencyPhone": "Acil Durum Telefonu",
+  "submit": "Gönder"
+}
